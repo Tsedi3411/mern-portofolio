@@ -1,0 +1,11 @@
+
+@import url('https://fonts.google.com/specimen/Montserrat?query=monts');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family:"Montesserat", sans-serif;
+}
