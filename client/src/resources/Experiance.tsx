@@ -2,7 +2,7 @@ export const experiances =[
     
     {
         "id": "5678",
-        "company": "Self",
+        "company": "Self-employed",
         "Title" : "Practicing Programming",
         "Period": "2024-Present",
         "Description": ""

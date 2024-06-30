@@ -3,6 +3,12 @@ import Header from '../../component/Header'
 import Intro from  './intro'
 import About from  './About'
 import Experiances from './Experiances'
+import Projects from './Projects'
+import Courses from './Courses'
+import Contact from './contact'
+import Footer from './Footer'
+import LeftSide from './LeftSide'
+
 
 function Home() {
   return (
@@ -12,6 +18,11 @@ function Home() {
         <Intro/>
         <About/>
         <Experiances/>
+        <Projects />
+        <Courses />
+       <Contact />
+       <Footer />
+       <LeftSide />
         </div>
 
     </div>
