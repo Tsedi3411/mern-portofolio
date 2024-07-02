@@ -1,6 +1,7 @@
 import React from 'react'
 import SectionTitle from '../../component/SectionTitle'
 
+
 function About() {
     const skills=[
         "Javasript",
@@ -16,8 +17,8 @@ function About() {
             <SectionTitle title="About Me" />
             <div className="flex w-full items-center sm:flex-col">
 
-                <div className="h-[70vh] w-1/2 sm:w-full">
-                    <img src="t.png" alt="my Picture" />
+                <div className="h-[70vh] m-2 sm:w-full">
+                    <img src="./images/ts.jpg" alt="my Picture" />
                 </div>
                 <div className=' flex flex-col gap-5 w-1/2'>
                     <p className='text-white'>

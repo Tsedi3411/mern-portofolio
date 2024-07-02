@@ -1,17 +1,18 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Loader from "./component/Loader";
+
 import Home from './pages/Home'
 
 function App() {
-// const [count, setCount] = useState(0)
+  const [showLoading, setShowLoading] = useState(false)
 
   return (
-    
     <BrowserRouter>
-    <Routes>
-      <Route path ="/" element={ <Home/> } />
-
-    
-    </Routes>
+      { showLoading ? <Loader /> : null}
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </BrowserRouter>
 
   );

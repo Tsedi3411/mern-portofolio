@@ -25,7 +25,7 @@ function Contact() {
             <p className="text-tertiary">{"}"}</p>
         </div>
         <div>
-            <img src="ty.png" alt="my Image" />
+            <img src="./images/ts.jpg" alt="my Image" />
         </div>
         </div>
     </div>

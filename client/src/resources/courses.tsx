@@ -2,25 +2,25 @@ export const courses=[
     {
         "id":"948573",
         "title":"Java Programing",
-        "image":"nt.png",
+        "image":"./images/java.jpg",
         link:"/",
     },
     {
         "id":"764378",
         "title":"Html, css",
-        "image":"at.png",
+        "image":"./images/html.jpg",
         link:"/",
     },
     {
         "id":"874582",
         "title":"Javascript",
-        "image":"bt.png",
+        "image":"./images/js.jpg",
         link:"/",
     },
     {
         "id":"579693",
         "title":"Artificial Intelligence",
-        "image":"et.png",
+        "image":"./images/AI.jpg",
         link:"/",
     }
 ]
