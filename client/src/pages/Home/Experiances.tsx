@@ -33,9 +33,7 @@ function Experiances() {
                 <div className='flex flex-col gap-5'>
                     <h1 className="text-secondary text-xl">{experiances[selectedItemIndex].Title}</h1>
                     <h1 className="text-tertiary text-xl">{experiances[selectedItemIndex].company}</h1>
-                    <p className='text-white'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit perferendis iure,
-                         corporis eligendi, accusantium dicta harum amet dignissimos asperiores magnam labore
-                          voluptate vitae facilis voluptas deserunt quidem est sed tempora.</p>
+                    <p className='text-white'>{experiances[selectedItemIndex].Description}</p>
                 </div>
 
             </div>

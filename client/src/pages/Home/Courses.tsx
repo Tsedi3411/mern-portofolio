@@ -36,9 +36,7 @@ function Courses() {
                 <h1 className="text-secondary text-xl">{courses[selectedItemIndex].title}</h1>
                 {/* <p className="text-white">{courses[selectedItemIndex].description}</p> */}
                 {/* <h1 className="text-tertiary text-xl">{projects[selectedItemIndex].company}</h1> */}
-                <p className='text-white'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit perferendis iure,
-                     corporis eligendi, accusantium dicta harum amet dignissimos asperiores magnam labore
-                      voluptate vitae facilis voluptas deserunt quidem est sed tempora.</p>
+                <p className='text-white'>{courses[selectedItemIndex].description}</p>
                </div>
                <img src={courses[selectedItemIndex].image} alt="Couces Image" className='h-52 w-72'/>
             </div>

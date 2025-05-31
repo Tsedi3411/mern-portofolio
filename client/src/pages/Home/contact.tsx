@@ -11,22 +11,19 @@ function Contact() {
         Country:"Addis Ababa, Ethiopia"
     }
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center min-h-[60vh]">
         <SectionTitle title="Say Hello" />
         <div className="flex sm:flex-col items-center justify-between">
             <div className="flex flex-col gap-1">
-            <p className="text-tertiary text-sm">{'{'}</p>
-            {Object.keys(user).map((key) => (
-             <h1 key={key} className="ml-5 text-sm">
-                 <span className='text-tertiary m-2'>{key}:</span>
-               <span className='text-tertiary'>{user[key]}</span>
-               </h1>
-           ))}
-            <p className="text-tertiary">{"}"}</p>
-        </div>
-        <div>
-            <img src="./images/ts.jpg" alt="my Image" />
-        </div>
+                <p className="text-tertiary text-sm">{'{'}</p>
+                {Object.keys(user).map((key) => (
+                    <h1 key={key} className="ml-5 text-sm">
+                        <span className='text-tertiary m-2'>{key}:</span>
+                        <span className='text-tertiary'>{user[key]}</span>
+                    </h1>
+                ))}
+                <p className="text-tertiary">{"}"}</p>
+            </div>
         </div>
     </div>
   )
