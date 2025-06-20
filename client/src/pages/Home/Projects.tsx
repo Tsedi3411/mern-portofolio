@@ -34,15 +34,21 @@ function Projects() {
                  <img src={projects[selectedItemIndex].image} alt="Something About the project" className='h-60 w-72'/>
                    <div className='flex flex-col gap-5'>
                     <h1 className="text-secondary text-xl">{projects[selectedItemIndex].title}</h1>
+                    <p className="text-white">
+                        {Object.keys(projects[selectedItemIndex].Technologies).length > 0 
+                            ? Object.entries(projects[selectedItemIndex].Technologies)
+                                .map(([category, techs]) => `${category}: ${techs.join(', ')}`)
+                                .join(' | ')
+                            : 'No technologies specified'}
+                    </p>
                     <p className="text-white">{projects[selectedItemIndex].description}</p>
                     {/* <h1 className="text-tertiary text-xl">{projects[selectedItemIndex].company}</h1> */}
-                    <p className='text-white'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit perferendis iure,
-                         corporis eligendi, accusantium dicta harum amet dignissimos asperiores magnam labore
-                          voluptate vitae facilis voluptas deserunt quidem est sed tempora.</p>
+                
                    </div>
                 </div>
 
             </div>
+            
     </div>
   )
 }

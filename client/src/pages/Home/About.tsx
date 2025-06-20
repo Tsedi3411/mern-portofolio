@@ -9,7 +9,8 @@ function About() {
         "tailwindcss",
         "Node",
         "Express",
-        "Mongodb"
+        "Mongodb",
+        "Postgresql"
        
     ]
     return (
@@ -17,10 +18,10 @@ function About() {
             <SectionTitle title="About Me" />
             <div className="flex w-full items-center justify-center sm:flex-col">
             <div
-                className="h-[200px] w-[200px] m-2 sm:w-full flex items-center justify-center animate-fade-in-up"
+                className="h-[250px] w-[250px] m-2 sm:w-full flex items-center justify-center animate-fade-in-up"
                 style={{ animationDelay: "0.1s", animationFillMode: "both" }}
             >
-                <img className="h-[180px] w-[180px] object-cover rounded-full" src="./images/ts.jpg" alt="my Picture" />
+                <img className="h-[250px] w-[250px] object-cover rounded-full m-4" src="./images/ts.jpg" alt="my Picture" />
             </div>
             <div
                 className='flex flex-col gap-5 w-1/2 sm:w-full animate-fade-in-left'
@@ -28,8 +29,8 @@ function About() {
             >
                 <p className='text-white'>
                 my name is Tsedenya Alebel , i was born in December 08 , 1998 in european calender ,
-                i get my degree from wachemo university in 2021 after graduation i get a gob there as 
-                an assistant lecturer after one year of teaching different cources i came to Addis Abba
+                i get my degree from wachemo university in 2021 after graduation i got a job there as 
+                an assistant lecturer after one year of teaching different cources i came to Addis Ababa
                 to learn Msc in software engineering.
                 </p>
                 <p className="text-white items-center justify-center">
