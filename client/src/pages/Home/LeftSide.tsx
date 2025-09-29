@@ -12,7 +12,7 @@ function LeftSide() {
         <a href="mailto:tsedi3411@gmail.com" target="_blank" rel="noopener noreferrer">
           <i className="ri-mail-add-line text-gray-500"></i>
         </a>
-        <a href="https://www.linkedin.com/in/tsedenya-alebel-83053632a" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/tsedenya-alebel" target="_blank" rel="noopener noreferrer">
           <i className="ri-linkedin-box-fill text-gray-500"></i>
         </a>
         <a href="https://github.com/Tsedi3411" target="_blank" rel="noopener noreferrer">
